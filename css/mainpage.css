@@ -73,6 +73,7 @@ span{
     background-color: red;
     padding:7px 30px;
     border-radius: 5px;
+
    
 }
 .fa-cart-plus{
@@ -557,7 +558,11 @@ span{
         margin-right: 0px;
         margin-left: 0px;
         padding-left: 5px;
+        display:initial;
        
+    }
+    .fa-cart-plus{
+    Display: initial;
     }
 
     .navbar input{
