@@ -9,6 +9,8 @@
     <link rel="icon" href="pics/shop_crop-removebg-preview.png" type="image/icon type">
     <link rel="stylesheet" href="css/mainpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -28,8 +30,8 @@
 
                     <i class="fa fa-search">
                         <input type="text" placeholder="Search Your Product Here"></i>
-                    <a href="#"><i class="fa fa-user" id="ab"></i> Sign in / Sign up</a>
-                    <a href="#" class="my-cart">My Cart</a>
+                    <i class="fa fa-user"></i> <a href="#"> Sign in / Sign up</a>
+                    <i class="fa fa-cart-plus" id="ab"></i> <a href="#" class="my-cart">My Cart</a>
                 </div>
 
             </div>
@@ -38,13 +40,121 @@
                 <div class="location">
                     <i class="fa fa-map-marker" style="font-size: 30px;"></i>
                     <h4>Deliver to<br><span class="pincode">226202</span></h4>
-                    <a href="#">Grocery <i class="fa fa-chevron-down"></i></a>
-                    <a href="#">Premium Fruit <i class="fa fa-chevron-down"></i></a>
-                    <a href="#">Home & Kitchen<i class="fa fa-chevron-down"></i></a>
-                    <a href="#">Fashion<i class="fa fa-chevron-down"></i></a>
-                    <a href="#">Electronics<i class="fa fa-chevron-down"></i></a>
-                    <a href="#">Beuty<i class="fa fa-chevron-down"></i></a>
-                    <a href="#">Jewellery<i class="fa fa-chevron-down"></i></a>
+
+
+                    <div class="right-menu">
+                        <a href="#">Grocery <i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="flex">
+                            <div class="line1">
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                            </div><br>
+                            <div class="line2">
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                            </div><br>
+                            <div class="line3">
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                                <a href="#">home</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="right-menu">
+                        <a href="#">Premium Fruit <i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                        </div>
+                    </div>
+
+                    <div class="right-menu">
+                        <a href="#">Home & Kitchen<i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                        </div>
+                    </div>
+
+                    <div class="right-menu">
+                        <a href="#">Fashion<i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                        </div>
+                    </div>
+
+                    <div class="right-menu">
+                        <a href="#">Electronics<i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                        </div>
+                    </div>
+
+                    <div class="right-menu">
+                        <a href="#">Beuty<i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                        </div>
+                    </div>
+
+
+                    <div class="right-menu">
+                        <a href="#">Jewellery<i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                            <a href="#">home</a>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
@@ -489,7 +599,7 @@
                 <a href="#">View All</a>
             </div>
             <div class="shop">
-                <div class="box-container">
+                <div class="box-container" id="sbc">
                     <div class="box2">
                         <span class="disc2">
                             <p> Free <br> Gift </p>
@@ -1070,19 +1180,19 @@
         </div>
     </div>
 
-<!-- -------------------------------credit-------------------------------------- -->
+    <!-- -------------------------------credit-------------------------------------- -->
 
 
 
-            <div class="credit">
-                <h1>
-                    <span>&copy;</span>
-                    created by
-                    <span>govind verma</span>
-                    | All right reserved.
-                </h1>
-                <p><b>3rd year || CSE student || (SRIMT lucknow)</b></p>
-            </div>
+    <div class="credit">
+        <h1>
+            <span>&copy;</span>
+            created by
+            <span>govind verma</span>
+            | All right reserved.
+        </h1>
+        <p><b>3rd year || CSE student || (SRIMT lucknow)</b></p>
+    </div>
 
 
 
