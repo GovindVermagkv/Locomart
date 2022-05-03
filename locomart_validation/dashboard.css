@@ -516,6 +516,7 @@ text-align: center;
     padding: 10px 30px;
     border-top: 20px solid red;
     border-bottom: 10px solid red;
+    border-radius:10px;
     /* margin: 10px; */
 
 }
