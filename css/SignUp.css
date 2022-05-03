@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-family: 'Nunito',sans-serif;
+    text-transform: capitalize;
+}
+.main{
+   margin: 0px;
+}
+.main2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(243, 236, 236, 0.573);
+    border-radius: 10px;
+}
+.left{
+    width: 70%;
+}
+.left img{
+  width: 70%;
+  height: 70%;
+  margin-top: 120px;
+  margin-left: 90px;
+}
+.right{
+  width: 30%;
+  margin: 30px;
+  border: 1px solid rgba(213, 209, 209, 0.695);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.right .disc{
+    margin: 70px 0px 0px 20px;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+.email-section{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 2px solid blue;
+    transition: .3s;
+}
+.email-input input{
+    margin-top:5px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    background-color: transparent; 
+}
+
+input:focus{
+    outline: none;
+}
+.email-section:hover{
+    background-color: rgba(217, 211, 211, 0.558);
+    border-radius: 10px;
+}
+
+.email-section i{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 8px;
+    color: rgb(178, 169, 169);
+}
+
+.buttons{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.buttons a{
+    margin: 20px 5px;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid rgba(214, 210, 210, 0.666);
+    border-radius: 10px;
+    color: blue;
+}
+.buttons button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 5px;
+    border-radius: 10px;
+
+}
+.buttons a:hover{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    transition: .3s ;
+}
+
+.social a i{
+    margin: 0px 30px;
+    font-size: 30px;
+}
+.social a i:hover{
+    border-bottom: 2px solid red;
+}
+.option{
+
+margin-top: 50px;
+margin-left: 30px;
+}
+
+p{
+    font-size: 13px;
+    color:  rgb(178, 169, 169);
+}
+h1{
+    font-size: 30px;
+}
+h3{
+    font-size: 30px;
+    color: blue;
+    border-bottom: 2px solid red;
+    width: fit-content;
+}
+
+.color{
+    background-color: white;
+}
+
+.buttons .one{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    
+    .main{
+        margin: 10px;
+     }
+     .main2{
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .left{
+         width: 100%;
+         height: 100%;
+     }
+     .left img{
+       width: 100%;
+       height: 100%;
+       margin-left: 0px;
+     }
+     .right{
+       width: auto;
+     }
+    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
