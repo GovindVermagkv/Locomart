@@ -25,7 +25,20 @@ html{
   height: 70%;
   margin-top: 120px;
   margin-left: 90px;
+    animation: float 5s linear infinite;
 }
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(3rem);
+    }
+}
+
+
+
 .right{
   width: 30%;
   margin: 30px;
